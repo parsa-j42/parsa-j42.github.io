@@ -48,12 +48,12 @@ linkedin_username: parsa-j42
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Parsa and I'm currently a high school student. I like programming and I have experience in Python, JavaScript, TypeScript and Django, React, HTML, CSS and SQL. Also, I have interest in linux and the FOSS.
+  Hi, my name's Parsa and I'm currently a high school student. I like programming and I have experience in Python, JavaScript, TypeScript, Django, React, HTML, CSS and SQL. I also have interest in linux and FOSS.
 
   I am most skilled in: <mark>Python</mark>
 
 content:
-  - title: Current Project # Title for the section
+  - title: Current Project(s) # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -70,7 +70,7 @@ content:
         #quote: >
           #
         description: | # this will include new lines to allow paragraphs
-          Currently I am trying to build up some experience in <mark>React</mark> and <mark>TypeScript</mark>. According to stackoverflow 2021 survey, the most commonly used web framework in 2021 was React, which is a great to gain skills in React. 
+          Currently, I am trying to build up some experience in <mark>React</mark> and <mark>TypeScript</mark>. According to Stack Overflow 2021 survey, the most commonly used web framework in 2021 was React, which is a good reason to gain skills in React. 
  # - title: Experience 
  #   layout: list # Type of content section (list/text)
  #   content:
