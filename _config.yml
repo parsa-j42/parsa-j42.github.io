@@ -32,7 +32,7 @@ linkedin_username: parsa-j42
 # Additional icon links
 additional_links:
 - title: CV
-  icon: fas fa-fa-file
+  icon: fas fa-file
   url: https://github.com/parsa-j42/parsa-j42.github.io/raw/main/CV.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
