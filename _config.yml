@@ -32,7 +32,7 @@ linkedin_username: parsa-j42
 # Additional icon links
 additional_links:
 - title: CV
-  icon: fas fa-file-user
+  icon: fas fa-fa-file
   url: https://github.com/parsa-j42/parsa-j42.github.io/raw/main/CV.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Parsa and I'm currently a high school student. I like programming and I have experience in Python, JavaScript, TypeScript, Django, React, HTML, CSS and SQL. I also have interest in linux and FOSS.
+  Hi, my name's Parsa and I'm currently a high school student. I like programming and I have experience in Python, JavaScript, TypeScript, Django, React, NestJS, HTML, CSS and SQL. I also have interest in linux and FOSS.
 
   I am most skilled in: <mark>Python</mark>
 
@@ -70,7 +70,7 @@ content:
         #quote: >
           #
         description: | # this will include new lines to allow paragraphs
-          Currently, I am trying to build up some experience in <mark>React</mark> and <mark>TypeScript</mark>. According to Stack Overflow 2021 survey, the most commonly used web framework in 2021 was React, which is a good reason to gain skills in React. 
+          Currently, I am trying to build up some experience in <mark>React</mark> and <mark>NestJS</mark>. According to Stack Overflow 2021 survey, the most commonly used web framework in 2021 was React, which is a good reason to gain skills in React. I also figured out that NestJS is one of my best choices to use for backend.
  # - title: Experience 
  #   layout: list # Type of content section (list/text)
  #   content:
