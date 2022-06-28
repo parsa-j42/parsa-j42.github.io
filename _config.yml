@@ -30,10 +30,10 @@ linkedin_username: parsa-j42
 # orcid_username: 
 
 # Additional icon links
-#additional_links:
-#- title: 
-#  icon: fas fa-globe
-#  url: 
+additional_links:
+ title: CV
+ icon: fas fa-file-user
+ url: https://github.com/parsa-j42/parsa-j42.github.io/raw/main/CV.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url:
