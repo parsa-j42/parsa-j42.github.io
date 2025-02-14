@@ -7,108 +7,90 @@ version: 2
 
 # Personal info
 name: Parsa Jafari
-title: Student
-email: parsajfri4@gmail.com
-#website: www.github.com/parsa-j42
+title: Software Developer
+email: parsajfri42@gmail.com
+website: https://www.linkedin.com/in/parsa-j42/
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-#twitter_username: 
-github_username:  parsa-j42
-# stackoverflow_username: 
-# dribbble_username: 
-# facebook_username: 
-# flickr_username: 
-#instagram_username: 
+github_username: parsa-j42
 linkedin_username: parsa-j42
-# xing_username: 
-# pinterest_username: 
-#youtube_username: 
-# googleplus_username: 
-# orcid_username: 
 
 # Additional icon links
 additional_links:
-- title: CV
+- title: Resume
   icon: fas fa-file
-  url: https://github.com/parsa-j42/parsa-j42.github.io/raw/main/CV.pdf
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url:
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: 
-# gtag: 
-# google_analytics: 
+  url: # You can add your resume URL here
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Parsa and I'm currently a high school student. I like programming and I have experience in Python, JavaScript, TypeScript, Django, React, NestJS, HTML, CSS and SQL. I also have interest in linux and FOSS.
+about_content: | 
+  I am a Software Developer pursuing a Diploma in Software Development at Southern Alberta Institute of Technology (SAIT) with a GPA of 3.75/4.00. I have extensive experience in full-stack development using modern technologies and frameworks.
 
-  I am most skilled in: <mark>Python</mark>
+  I am proficient in: <mark>TypeScript</mark>, <mark>JavaScript</mark>, <mark>Python</mark>, <mark>React</mark>, <mark>Node.js</mark>, <mark>NestJS</mark>, <mark>React Native</mark>, <mark>HTML</mark>, <mark>CSS</mark>, <mark>ES6</mark>, <mark>Java</mark>, <mark>SQL</mark>, <mark>Git</mark>, and <mark>GNU/Linux</mark>.
 
 content:
-  - title: Current Project(s) # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
-      - layout: top-middle
-        #title: 
-        #link: 
-        # link_text: Project Website
-        #additional_links:
-        #  - title: 
-        #    icon: fab fa-github
-        #    url: 
-          # - title:  
-          #   icon: fab fa-github
-          #   url:
-        #quote: >
-          #
-        description: | # this will include new lines to allow paragraphs
-          Currently, I am trying to build up some experience in <mark>React</mark> and <mark>NestJS</mark>. According to Stack Overflow 2021 survey, the most commonly used web framework in 2021 was React, which is a good reason to gain skills in React. I also figured out that NestJS is one of my best choices to use for backend.
- # - title: Experience 
- #   layout: list # Type of content section (list/text)
- #   content:
- #    - layout: left
- #      title: 
- #      link: 
-        # link_text: 
- #      sub_title: 
- #      caption: 
- #      quote: >
- #        
- #       description: | # this will include new lines to allow paragraphs
- #           
+      - layout: left
+        title: Frontend Developer - Educational AI Platform
+        caption: May 2024 - Oct 2024
+        description: |
+          - Led complete development of CaseCraft using React, TypeScript, Vite, and Mantine UI
+          - Built key features including context-based customization, AI integration for scenario generation
+          - Contributed to Ally's frontend development with AI-powered personalized learning
+          - Implemented core UI architecture and user authentication using AWS Cognito and AWS Amplify
 
- # - title: Education
- #   layout: list # Type of content section (list/text)
- #   content:
- #     - layout: left
- #       title: 
- #       caption: 
- #       sub_title: 
- #       quote: >
- #
- #       description: |
- #    
+      - layout: left
+        title: Mobile App Developer - Sidewalk Navigation Project
+        sub_title: University of Calgary
+        caption: Jul 2022 - Aug 2022
+        description: |
+          - Developed full-stack native mobile application for iOS and Android platforms
+          - Implemented API endpoints using Node.js and Firebase
+          - Built responsive UI/UX using React Native with Google Maps integration
+          - Collaborated using Git and GitHub for version control
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in software engineering and computers some of my other interests and hobbies are:
-      - Playing Piano
-      - Soccer
-      - Gaming
+      - layout: left
+        title: Full-Stack Software Developer
+        sub_title: Meyar Keyfiat Co.
+        caption: Jul 2021 - Jan 2022
+        description: |
+          - Developed web application using Django and Python for real-time data management
+          - Designed scalable database schema using SQLite
+          - Created user-friendly interface for efficient data rendering
+          - Maintained regular client communication for project alignment
 
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Southern Alberta Institute of Technology (SAIT)
+        caption: Expected Graduation April 2025
+        sub_title: Diploma in Software Development
+        quote: >
+          GPA: 3.75 / 4.00
+
+  - title: Certifications
+    layout: list
+    content:
+      - layout: left
+        title: CompTIA Network+
+        caption: March 2019
+        sub_title: Issued by SEMATEC
+
+      - layout: left
+        title: Web Design
+        caption: March 2019
+        sub_title: Issued by SEMATEC
+        description: |
+          HTML, CSS, Dreamweaver, Bootstrap, Javascript, JQuery
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
