@@ -1,93 +1,284 @@
-# Site
-repository: parsa-j42
+# Site Configuration
+repository: parsa-j42/parsa-j42.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
-# Personal info
+# Personal Information
 name: Parsa Jafari
 title: Software Developer
 email: parsajfri42@gmail.com
-website: https://www.linkedin.com/in/parsa-j42/
+website: https://parsa-j42.me
+phone: # Optional - add if you want to display phone number
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
-# Social links
+# Social Links
 github_username: parsa-j42
 linkedin_username: parsa-j42
 
-# Additional icon links
+# Additional Icon Links
 additional_links:
-- title: Resume
-  icon: fas fa-file
-  url: # You can add your resume URL here
+- title: Resume Download
+  icon: fas fa-download
+  url: cv.pdf
+- title: Website
+  icon: fas fa-globe
+  url: https://parsa-j42.me
+- title: Email
+  icon: fas fa-envelope
+  url: mailto:parsajfri42@gmail.com
+
+# Google Analytics
+gtag: # Add your Google Analytics ID here if needed
 
 # About Section
 about_profile_image: images/profile.jpg
 about_content: | 
-  I am a Software Developer pursuing a Diploma in Software Development at Southern Alberta Institute of Technology (SAIT) with a GPA of 3.75/4.00. I have extensive experience in full-stack development using modern technologies and frameworks.
-
-  I am proficient in: <mark>TypeScript</mark>, <mark>JavaScript</mark>, <mark>Python</mark>, <mark>React</mark>, <mark>Node.js</mark>, <mark>NestJS</mark>, <mark>React Native</mark>, <mark>HTML</mark>, <mark>CSS</mark>, <mark>ES6</mark>, <mark>Java</mark>, <mark>SQL</mark>, <mark>Git</mark>, and <mark>GNU/Linux</mark>.
+  Hi, I'm **Parsa Jafari**, a passionate Software Developer and recent graduate from SAIT with a strong foundation in modern web and mobile development. 
+  
+  🚀 I thrive on **innovative solutions** rather than conventional approaches and have a deep passion for **open-source technologies** and **Linux systems**.
+  
+  💼 Currently working as a Frontend Developer at **HoneyBeeLogic**, where I lead the development of educational AI platforms using cutting-edge technologies.
+  
+  🎯 I'm eager to contribute in **dynamic startup environments** and bring fresh perspectives to challenging technical problems.
+  
+  **Core Technologies:** <mark>TypeScript</mark> <mark>React</mark> <mark>Node.js</mark> <mark>Python</mark> <mark>NestJS</mark> <mark>React Native</mark> <mark>PostgreSQL</mark> <mark>AWS</mark> <mark>GNU/Linux</mark>
 
 content:
-  - title: Experience
+  - title: 🚀 Featured Project
+    layout: list
+    content:
+      - layout: top-middle
+        title: TeamUp - Project Matching Platform
+        caption: SAIT Capstone Project | Full-Stack Development
+        link: # Add GitHub link if available
+        link_text: View on GitHub
+        additional_links:
+          - title: Live Demo
+            icon: fab fa-github
+            url: # Add demo URL if available
+        quote: >
+          A comprehensive full-stack platform that connects developers and creators for collaborative projects
+        description: |
+          **🏗️ Architecture & Backend:**
+          - Solely architected and developed entire platform from concept to deployment
+          - Built scalable backend using **NestJS (TypeScript)**, **PostgreSQL**, and **TypeORM**
+          - Implemented RESTful APIs with comprehensive **Swagger documentation**
+          - Designed modular architecture for easy maintenance and scaling
+
+          **🔐 Security & Authentication:**
+          - Integrated **AWS Cognito** for secure user authentication and authorization
+          - Implemented **JWT-based** role-based access control for project management
+          - Designed secure API endpoints with proper validation and error handling
+
+          **🤖 AI Integration:**
+          - Integrated **Google Gemini API** for AI-powered project recommendations
+          - Built intelligent matching system based on user skills, interests, and project attributes
+          - Created dynamic recommendation engine for enhanced user experience
+
+          **💻 Frontend & UX:**
+          - Developed responsive frontend with **React**, **TypeScript**, **Vite**, and **Mantine UI**
+          - Translated UI/UX designs into interactive, user-friendly interfaces
+          - Implemented real-time features for seamless collaboration
+
+          **🛠️ Core Features:**
+          - Comprehensive project CRUD operations with advanced search and filtering
+          - Dynamic user profiles with skill management and portfolio integration
+          - Robust application and invitation system for team formation
+          - Project milestone and task management capabilities
+
+          **☁️ Deployment & DevOps:**
+          - Deployed on **AWS** (EC2 for backend, Amplify for frontend)
+          - Utilized **RDS** for database management and **Lambda** for serverless functions
+          - Implemented CI/CD pipelines for automated deployment
+
+          **Technologies:** NestJS, React, TypeScript, PostgreSQL, TypeORM, AWS (Cognito, EC2, RDS, Lambda, Amplify), Google Gemini API, Mantine UI, Vite, Node.js, Git
+
+  - title: 💼 Professional Experience
     layout: list
     content:
       - layout: left
-        title: Frontend Developer - Educational AI Platform
-        caption: May 2024 - Oct 2024
+        title: Frontend Developer
+        sub_title: HoneyBeeLogic - Educational AI Platform
+        caption: May 2024 – Present | Calgary, AB
+        link: # Add company website if available
+        quote: >
+          Leading frontend development for innovative AI-powered educational platforms
         description: |
-          - Led complete development of CaseCraft using React, TypeScript, Vite, and Mantine UI
-          - Built key features including context-based customization, AI integration for scenario generation
-          - Contributed to Ally's frontend development with AI-powered personalized learning
-          - Implemented core UI architecture and user authentication using AWS Cognito and AWS Amplify
+          **🎯 Key Achievements:**
+          - **Led complete development** of CaseCraft using **React**, **TypeScript**, **Vite**, and **Mantine UI**
+          - Delivered clean, efficient, and maintainable code following industry best practices
+          - Built sophisticated features including context-based customization and AI integration
+          - Implemented automated document export functionality for enhanced user experience
+
+          **🤝 Collaboration & Development:**
+          - **Contributed to Ally's frontend development**, collaborating with cross-functional teams
+          - Delivered AI-powered personalized learning plan generation features
+          - Participated in **code reviews** and **agile development processes**
+          - Engaged in sprint planning and daily standups for effective project management
+
+          **🏗️ Technical Architecture:**
+          - Implemented core UI architecture with focus on scalability and performance
+          - Integrated **AWS Cognito** and **AWS Amplify** for secure user authentication
+          - Designed responsive interfaces optimized for multiple device types
+          - Established component libraries for consistent UI/UX across applications
 
       - layout: left
-        title: Mobile App Developer - Sidewalk Navigation Project
-        sub_title: University of Calgary
-        caption: Jul 2022 - Aug 2022
+        title: Mobile App Developer
+        sub_title: University of Calgary - Sidewalk Navigation Project
+        caption: July 2022 – August 2022 | Calgary, AB
+        quote: >
+          Developed innovative mobile solutions for urban navigation accessibility
         description: |
-          - Developed full-stack native mobile application for iOS and Android platforms
-          - Implemented API endpoints using Node.js and Firebase
-          - Built responsive UI/UX using React Native with Google Maps integration
-          - Collaborated using Git and GitHub for version control
+          **📱 Mobile Development:**
+          - Developed **full-stack native mobile application** for iOS and Android platforms
+          - Built comprehensive sidewalk navigation system using **React Native**
+          - Integrated **Google Maps API** for real-time location and navigation features
+          - Focused on accessibility and user-friendly design for diverse user needs
+
+          **⚙️ Backend & API Development:**
+          - Implemented robust **API endpoints** and data models using **Node.js** and **Firebase**
+          - Designed efficient data structures for real-time navigation processing
+          - Developed secure authentication and data synchronization systems
+          - Optimized performance for smooth real-time navigation experience
+
+          **🔧 Development Practices:**
+          - Collaborated with research team using **Git** and **GitHub** for version control
+          - Participated in **sprint planning** and daily development processes
+          - Conducted extensive debugging and troubleshooting for mobile platforms
+          - Under supervision of **Dr. Far** at University of Calgary research department
 
       - layout: left
         title: Full-Stack Software Developer
         sub_title: Meyar Keyfiat Co.
-        caption: Jul 2021 - Jan 2022
+        caption: July 2021 – January 2022 | Tehran, Iran
+        quote: >
+          Delivered enterprise-grade web solutions for real-time data management
         description: |
-          - Developed web application using Django and Python for real-time data management
-          - Designed scalable database schema using SQLite
-          - Created user-friendly interface for efficient data rendering
-          - Maintained regular client communication for project alignment
+          **🌐 Web Application Development:**
+          - Developed comprehensive web application using **Django** and **Python**
+          - Built real-time wagon inspection data management system for railway operations
+          - Created responsive and intuitive user interfaces for complex data visualization
+          - Implemented efficient data rendering for large-scale industrial datasets
 
-  - title: Education
+          **💾 Database & Performance:**
+          - Designed and implemented **scalable database schema** using **SQLite**
+          - Optimized query performance for handling large-scale operational data
+          - Implemented data validation and integrity checks for mission-critical applications
+          - Created efficient data backup and recovery procedures
+
+          **👥 Client Relations & Documentation:**
+          - Maintained regular **client communication** for project alignment and feedback
+          - Created comprehensive **technical documentation** for features and processes
+          - Delivered training sessions for end-users and system administrators
+          - Provided ongoing support and maintenance for deployed applications
+
+  - title: 🎓 Education
     layout: list
     content:
       - layout: left
         title: Southern Alberta Institute of Technology (SAIT)
-        caption: Expected Graduation April 2025
-        sub_title: Diploma in Software Development
-        quote: >
-          GPA: 3.75 / 4.00
+        caption: Diploma in Software Development
+        sub_title: "GPA: 3.82/4.00"
+  - title: 🛠️ Technical Skills
+    layout: list
+    content:
+      - layout: top-middle
+        title: Frontend Development
+        description: |
+          **Frameworks & Libraries:** React, TypeScript, JavaScript (ES6+), HTML5, CSS3
+          **UI Frameworks:** Mantine UI, Bootstrap, Responsive Design
+          **Build Tools:** Vite, Webpack, npm/yarn
+          **State Management:** Redux, Context API, React Query
 
-  - title: Certifications
+      - layout: top-middle
+        title: Backend Development
+        description: |
+          **Frameworks:** NestJS, Node.js, Django, FastAPI
+          **Languages:** TypeScript, Python, JavaScript
+          **APIs:** RESTful APIs, GraphQL, Swagger Documentation
+          **Authentication:** JWT, OAuth, AWS Cognito
+
+      - layout: top-middle
+        title: Mobile Development
+        description: |
+          **Cross-Platform:** React Native, Flutter
+          **Native:** iOS/Android Development
+          **Tools:** Xcode (familiar), Android Studio
+          **APIs:** Google Maps API, Camera/GPS integration
+
+      - layout: top-middle
+        title: Database & Cloud
+        description: |
+          **Databases:** PostgreSQL, SQLite, Firebase, NoSQL
+          **ORM:** TypeORM, Prisma, Django ORM
+          **Cloud Services:** AWS (EC2, Amplify, Cognito, RDS, Lambda, S3, CloudFront)
+          **DevOps:** CI/CD, Docker (familiar), Linux Server Administration
+
+      - layout: top-middle
+        title: Development Tools & Practices
+        description: |
+          **Version Control:** Git, GitHub, GitLab
+          **Development:** VS Code, IntelliJ IDEA, Vim
+          **Operating Systems:** GNU/Linux (Fedora, Ubuntu, Arch, RHEL), macOS, Windows
+          **Methodologies:** Agile, Scrum, TDD, Code Reviews, Technical Documentation
+
+  - title: 🏆 Certifications
     layout: list
     content:
       - layout: left
         title: CompTIA Network+
         caption: March 2019
         sub_title: Issued by SEMATEC
+        description: |
+          Industry-recognized certification covering networking fundamentals, infrastructure, and security protocols.
 
       - layout: left
-        title: Web Design
+        title: Web Design Certification
         caption: March 2019
         sub_title: Issued by SEMATEC
         description: |
-          HTML, CSS, Dreamweaver, Bootstrap, Javascript, JQuery
+          Comprehensive web development certification covering:
+          **Technologies:** HTML, CSS, Dreamweaver, Bootstrap, JavaScript, jQuery
+          **Focus Areas:** Responsive design, user experience, and modern web standards
+
+  - title: 🌟 Activities & Community
+    layout: list
+    content:
+      - layout: left
+        title: SAIT Student Code Club (SSC)
+        caption: 2025
+        
+      - layout: left
+        title: Youth Coding Mentor
+        sub_title: Calgary Public Library - Code Club
+        caption: 2022
+        description: |
+          Mentored young learners in programming fundamentals and problem-solving skills.
+          Developed engaging curriculum for teaching Python, Scratch, and web development basics.
+
+  - title: 📫 Get In Touch
+    layout: text
+    content: |
+      I'm always interested in discussing new opportunities, innovative projects, or just connecting with fellow developers! 
+      
+      Whether you're looking for a passionate developer to join your team, want to collaborate on an exciting project, 
+      or simply want to chat about technology and software development, I'd love to hear from you.
+      
+      **🚀 What I'm looking for:**
+      - Dynamic startup environments where I can make a real impact
+      - Projects involving cutting-edge technologies and AI integration
+      - Opportunities to work with passionate teams on innovative solutions
+      - Open-source collaboration and community projects
+      
+      **📧 Let's connect:**
+      - Email: [parsajfri42@gmail.com](mailto:parsajfri42@gmail.com)
+      - LinkedIn: [linkedin.com/in/parsa-j42](https://linkedin.com/in/parsa-j42/)
+      - GitHub: [github.com/parsa-j42](https://github.com/parsa-j42/)
+      - Website: [parsa-j42.me](https://parsa-j42.me)
 
 # Footer
 footer_show_references: true
@@ -101,3 +292,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+# SEO and Social Sharing
+title: "Parsa Jafari - Software Developer Portfolio"
+description: "Passionate Software Developer specializing in React, TypeScript, Node.js, and full-stack development. Experience in AI integration, mobile development, and modern web technologies."
+author: "Parsa Jafari"
+locale: "en_US"
+
+# Social sharing image
+og_image: images/profile.jpg
+
+# Additional SEO settings
+lang: en
+timezone: America/Edmonton
